@@ -1,7 +1,15 @@
 ---
 layout: post
-title: "My first post"
+title: "Rx JS"
 date: 2017-06-29
 ---
 
-Well. Finally got around to putting this old website together.
+What is Reactive Programming
+
+Rx JS
+
+
+Hot and Cold Observables
+
+
+Inspiration
