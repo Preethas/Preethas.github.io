@@ -4,7 +4,7 @@ title: "Rx JS"
 date: 2017-06-29
 ---
 
-What is Reactive Programming
+<code>What is Reactive Programming</code>
 
 Rx JS
 
