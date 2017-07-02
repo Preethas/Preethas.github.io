@@ -70,3 +70,12 @@ Problems while implementing an autocomplete
 
 <iframe width="100%" height="300" src="https://jsfiddle.net/pree888/vLxxe5rn/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
+Rx Js with Promises
+
+An Observable can be created from Promise . It can have multiple subscribers as shown in the example below.
+Note that 'Init Observable' will be called only once despite the observable having multiple subscribers.
+
+
+
+<iframe width="100%" height="300" src="//jsfiddle.net/pree888/7eczw2hb/8/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
