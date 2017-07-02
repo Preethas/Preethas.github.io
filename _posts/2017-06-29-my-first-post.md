@@ -8,6 +8,8 @@ date: 2017-06-29
 
 Rx JS
 
+<script async src="//jsfiddle.net/pree888/4jebmpks/embed/"></script>
+
 
 Hot and Cold Observables
 
