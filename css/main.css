@@ -45,6 +45,10 @@ ul.posts li {
 }
 
 .code {
-    background-color:black;
-    color:white;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    font-size:14px;
+    font-weight:bold;
+    background-color:#DCDCDC;
+    color:blue;
 }
