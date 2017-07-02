@@ -31,7 +31,29 @@ The Rx Js api is available <a href="https://www.learnrxjs.io">here</a>
 
 <h3> Applications </h3>
 
+Very basic example of Rx Js used in search
 
+Observables can be created from events , promises or even plain arrays .
+
+Here we create an observable out of the key up event
+The event is 'debounced' , instead of tracking all the keyup events , these events are tracked once in 3 seconds
+Map function projects the event into the value entered in the text box
+Filter helps to filter out those events when the user has entered a value greater than or equal to a length of 3
+DistinctUntilChanged captures distinct text values , thus ignores events where the current value of the input equals the previous value
+Map function calls the searchFor which is a dummy function that returns an array of values to simulate a network query
+
+<code>   
+
+Rx.Observable.fromEvent(q, 'keyup')
+                   .debounce(() => Rx.Observable.timer(3000))
+                   .map(function (ev) { return ev.target.value; })
+                   .filter(function (text) { return text.length >= 3; })
+                   .distinctUntilChanged()
+                   .map(searchFor)
+
+</code>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/pree888/b3Los8j5/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 
 
