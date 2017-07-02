@@ -58,6 +58,15 @@ Rx.Observable.fromEvent(q, 'keyup')
 
 
 
-Rx JS 
+Autocomplete using switchMap
+
+Problems while implementing an autocomplete
+
+<ul>
+<li> The results fetched over a network query does not match the data typed in by the user . If the user types in ab , the network request will be sent once for a and then for b . But if the response is late then we get the result for 'a' , which will be set to the results instead of that for 'ab'.</li>
+</ul>
+
+<b> switchMap </b> comes to our rescue here . This function ensures that the result matches thelast text typed in by the user.
+
 <iframe width="100%" height="300" src="https://jsfiddle.net/pree888/vLxxe5rn/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
