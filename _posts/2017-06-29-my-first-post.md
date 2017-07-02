@@ -31,16 +31,17 @@ The Rx Js api is available <a href="https://www.learnrxjs.io">here</a>
 
 <h3> Applications </h3>
 
-Very basic example of Rx Js used in search
+A very basic example of Rx Js used in search
 
 Observables can be created from events , promises or even plain arrays .
-
-Here we create an observable out of the key up event
-The event is 'debounced' , instead of tracking all the keyup events , these events are tracked once in 3 seconds
-Map function projects the event into the value entered in the text box
-Filter helps to filter out those events when the user has entered a value greater than or equal to a length of 3
-DistinctUntilChanged captures distinct text values , thus ignores events where the current value of the input equals the previous value
-Map function calls the searchFor which is a dummy function that returns an array of values to simulate a network query
+<ul>
+<li> Here we create an observable out of the key up event </li>
+<li> The event is 'debounced' , instead of tracking all the keyup events , these events are tracked once in 3 seconds . </li>
+<li> Map function projects the event into the value entered in the text box. </li>
+<li> Filter helps to filter out those events when the user has entered a value greater than or equal to a length of 3 . </li>
+<li> DistinctUntilChanged captures distinct text values , thus ignores events where the current value of the input equals the previous value.</li>
+<li> Map function calls the searchFor which is a dummy function that returns an array of values to simulate a network query.</li>
+</ul>
 
 <div class="code">   
 
@@ -60,7 +61,3 @@ Rx.Observable.fromEvent(q, 'keyup')
 Rx JS 
 <iframe width="100%" height="300" src="https://jsfiddle.net/pree888/vLxxe5rn/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Hot and Cold Observables
-
-
-Inspiration
