@@ -14,7 +14,7 @@ Rx programming model was developed in Microsoft and has implementations in many 
 
 <h3> Inspiration </h3>
 
-Long long ago when the GOF design patterns was conceptualised , no one ever thought that the observer and the iterator patterns were related to each other as shown be the diagram  <a href="http://idiotechie.com/gang-of-four-gof-design-pattern"/> here </a>
+Long long ago when the GOF design patterns was conceptualised , no one ever thought that the observer and the iterator patterns were related to each other as shown be the diagram  <a href="http://idiotechie.com/gang-of-four-gof-design-pattern"> here </a>
 
 But then after several years people started realising the symmetry between both the patterns.
 
@@ -42,7 +42,7 @@ Filter helps to filter out those events when the user has entered a value greate
 DistinctUntilChanged captures distinct text values , thus ignores events where the current value of the input equals the previous value
 Map function calls the searchFor which is a dummy function that returns an array of values to simulate a network query
 
-<code>   
+<div class="code">   
 
 Rx.Observable.fromEvent(q, 'keyup')
                    .debounce(() => Rx.Observable.timer(3000))
@@ -51,7 +51,7 @@ Rx.Observable.fromEvent(q, 'keyup')
                    .distinctUntilChanged()
                    .map(searchFor)
 
-</code>
+</div>
 
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/b3Los8j5/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
