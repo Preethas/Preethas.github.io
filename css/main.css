@@ -49,6 +49,7 @@ ul.posts li {
     margin-bottom : 10px;
     font-size:14px;
     font-weight:bold;
+    padding: 10px 10px 10px 10px;
     background-color:#DCDCDC;
     color:blue;
 }
