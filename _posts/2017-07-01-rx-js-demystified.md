@@ -20,7 +20,11 @@ But then after several years people started realising the symmetry between both 
 
 Both the patterns deal with data . In the observer pattern which we generally associate with events (mouse click , key press etc ) the publisher of the event is in control . The consumer has no control over whether the event will even happen or the amount of data that it will produce.The model is a <b> push model </b> with the publisher pushing data to the consumer
 
-The iterator design pattern commonly used to iterate over collections , <b> the consumer is in control </b> . The consumer invokes the next() method to pull data from the publisher until a) there are no more elements in the collection b) an error occurs
+The iterator design pattern commonly used to iterate over collections , <b> the consumer is in control </b> . The consumer invokes the next() method to pull data from the publisher until 
+<ul>
+<li> a) there are no more elements in the collection </li>
+<li> b) an error occurs </li>
+</ul>
 
 When the symmetry was noticed people came up with the idea of Reactive programming where it was able to have a common interface to deal with pushed data (like data coming from events , data from a request over the network , web sockets)
 and static data like arrays .
