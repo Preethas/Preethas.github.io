@@ -20,10 +20,12 @@ But then after several years people started realising the symmetry between both 
 
 Both the patterns deal with data . In the observer pattern which we generally associate with events (mouse click , key press etc ) the publisher of the event is in control . The consumer has no control over whether the event will even happen or the amount of data that it will produce.The model is a <b> push model </b> with the publisher pushing data to the consumer
 
-The iterator design pattern commonly used to iterate over collections , the consumer is in control . The consumer invokes the next() method to pull data from the publisher until a) there are no more elements in the collection b) an error occurs
+The iterator design pattern commonly used to iterate over collections , <b> the consumer is in control </b> . The consumer invokes the next() method to pull data from the publisher until a) there are no more elements in the collection b) an error occurs
 
 When the symmetry was noticed people came up with the idea of Reactive programming where it was able to have a common interface to deal with pushed data (like data coming from events , data from a request over the network , web sockets)
 and static data like arrays .
+
+The Observable is central to the Rx pattern but instead of the consumer requesting values from the publisher (as in the iterator) the observable pushes values to the observer as soon as it is available . Its like saying <i> "Dont call us , we'll call you " </i>
 
 <h3> Rx Js api </h3>
 
@@ -31,7 +33,7 @@ The Rx Js api is available <a href="https://www.learnrxjs.io">here</a>
 
 <h3> Applications </h3>
 
-A very basic example of Rx Js used in search
+<b> A very basic example of Rx Js used in search </b>
 
 Observables can be created from events , promises or even plain arrays .
 <ul>
@@ -58,7 +60,7 @@ Rx.Observable.fromEvent(q, 'keyup')
 
 
 
-Autocomplete using switchMap
+<b> Autocomplete using switchMap </b>
 
 Problems while implementing an autocomplete
 
@@ -70,11 +72,12 @@ Problems while implementing an autocomplete
 
 <iframe width="100%" height="300" src="https://jsfiddle.net/pree888/vLxxe5rn/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-Rx Js with Promises
+<b> Rx Js with Promises </b>
 
 An Observable can be created from Promise . It can have multiple subscribers as shown in the example below.
-Note that 'Init Observable' will be called only once despite the observable having multiple subscribers.
+Note that 'Init Observable' will be called only once despite the observable having multiple subscriber
 
 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/7eczw2hb/8/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
