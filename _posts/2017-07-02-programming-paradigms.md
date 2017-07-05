@@ -24,12 +24,22 @@ Over the last year I have been fascinated by the power of declarative programmin
 Map operation - Projects an array taking each element and transforming it
 Filter operation - Filters elements from an array that match a given condition
 
+The fiddle below is an illustration of how we can implement our own filter and map operations
+
+<iframe width="100%" height="300" src="//jsfiddle.net/pree888/s1emt5yj/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 <h2> Example 2 <h2>
 
 ConcatAll - Flattening strategy that converts an n dimensional array into an n-1 dimensional array
 
+The fiddle below is an illustration of how we can implement our own concatAll operation
+
+
 
 <h2> Example 3 <h2>
 
 Reduce - Reduces an array into a single element
+
+The fiddle below is an illustration of how we can implement our own reduce operation
+
+<iframe width="100%" height="300" src="//jsfiddle.net/pree888/5m5zcbgy/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
