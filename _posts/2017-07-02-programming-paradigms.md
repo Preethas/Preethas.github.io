@@ -30,8 +30,8 @@ Over the last year I have been fascinated by the power of declarative programmin
 
 <h2> Example 1 <h2>
 
-Map operation - Projects an array taking each element and transforming it
-Filter operation - Filters elements from an array that match a given condition
+Map operation - Projects an array taking each element and transforming it.<br/>
+Filter operation - Filters elements from an array that match a given condition.<br/>
 
 The fiddle below is an illustration of how we can implement our own filter and map operations
 
@@ -39,7 +39,7 @@ The fiddle below is an illustration of how we can implement our own filter and m
 
 <h2> Example 2 <h2>
 
-ConcatAll - Flattening strategy that converts an n dimensional array into an n-1 dimensional array
+ConcatAll - Flattening strategy that converts an n dimensional array into an n-1 dimensional array <br/>
 
 The fiddle below is an illustration of how we can implement our own concatAll operation
 
@@ -48,7 +48,7 @@ The fiddle below is an illustration of how we can implement our own concatAll op
 
 <h2> Example 3 <h2>
 
-Reduce - Reduces an array into a single element
+Reduce - Reduces an array into a single element <br/>
 
 The fiddle below is an illustration of how we can implement our own reduce operation
 
