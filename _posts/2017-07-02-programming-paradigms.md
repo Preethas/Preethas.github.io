@@ -17,7 +17,16 @@ For more information
 <a href="http://www.ybrikman.com/writing/2014/04/09/six-programming-paradigms-that-will/"> Read this </a>
 
 Over the last year I have been fascinated by the power of declarative programming . This paradigm focusses on 
-"what the task is " rather than "how the task is done"
+"what the task is " rather than "how the task is done" 
+
+<h2> Benefits of declarative programming </h2>
+
+<ul>
+ <li> Fewer lines of code meaning less defects </li>
+ <li> Chaining operations </li>
+ <li> Readable code </li>
+ <li> Lower maintenance </li>
+</ul>
 
 <h2> Example 1 <h2>
 
@@ -34,6 +43,7 @@ ConcatAll - Flattening strategy that converts an n dimensional array into an n-1
 
 The fiddle below is an illustration of how we can implement our own concatAll operation
 
+<iframe width="100%" height="300" src="//jsfiddle.net/pree888/4n83u51f/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 
 <h2> Example 3 <h2>
@@ -43,3 +53,5 @@ Reduce - Reduces an array into a single element
 The fiddle below is an illustration of how we can implement our own reduce operation
 
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/5m5zcbgy/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
