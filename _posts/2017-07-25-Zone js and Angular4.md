@@ -58,10 +58,24 @@ A change detection is required in one of the following cases
 
 All  these 3 cases are asynchronous and when they happen angular needs to fire the DOM update .
 
+Zone js does a monkey patching of methods like setTimeout , setInterval and other events like click .
 
-  
-  
-  
+Angular subscribes to the onTurnDone event of the zone and calls the `tick()` method which triggers the change detection.
+
+<a href="https://github.com/angular/angular/blob/3dca9d522a79d037b3c2deba537ed547fc3f65b8/modules/angular2/src/core/application_ref.ts#L374"> Refer to the code here
+</a>
+
+
+
+<h3> Sample of zone js to intercept the click event  </h3>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/pree888/pv4a7pfj/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+<h3> Use cases for zone js </h3>
+
+Zone js can be used to intercept methods to add additional logging , to come up with detailed error stack trace 
+for view rendering as in angular js , measuring performance of methods.
+
 
 
 
