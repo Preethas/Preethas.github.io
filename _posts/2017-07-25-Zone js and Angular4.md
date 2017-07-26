@@ -76,7 +76,7 @@ Angular subscribes to the onTurnDone event of the zone and calls the `tick()` me
 
 <h3> Use cases for zone js </h3>
 
-Zone js can be used to intercept methods to add additional logging , to come up with detailed error stack trace 
+Zone js can be used to intercept methods to add additional logging , to come up with detailed error stack trace ,
 for view rendering as in angular js , measuring performance of methods.
 
 
