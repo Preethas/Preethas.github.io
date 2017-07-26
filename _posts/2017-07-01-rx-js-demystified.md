@@ -85,3 +85,5 @@ Note that 'Init Observable' will be called only once despite the observable havi
 
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/7eczw2hb/8/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
+<img src="https://preethas.github.io/assets/test.png"/>
+
