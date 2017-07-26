@@ -46,6 +46,15 @@ zone.fork(zoneSpecification).run(x);
 
 ```
 
+<h3> Angular 1 Change Detection </h3>
+
+Angular 1 forced us to use $scope.$apply to force DOM updation . Any changes done out of angular context 
+(say in a setTimeout function) would not be reflected in the DOM as angular doesnt know that it had to update
+the UI. Angular triggered the digest cycle as a result of asynchronous operations like $timeout , $http .
+
+<iframe width="100%" height="300" src="//jsfiddle.net/pree888/qqymy5bn/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
 <h3> Angular 4 and Zone js </h3>
 
 Angular js offers two way binding , when the data is updated the view gets updated automatically and vice versa.
@@ -62,6 +71,9 @@ A change detection is required in one of the following cases
 All  these 3 cases are asynchronous and when they happen angular needs to fire the DOM update .
 
 Zone js does a monkey patching of methods like setTimeout , setInterval and other events like click .
+
+Angular 4 has its implementation of zone js called ngZone . The ngZone emits the onTurnDone event when
+it completes an asynchronous operation.
 
 Angular subscribes to the onTurnDone event of the zone and calls the `tick()` method which triggers the change detection.
 
