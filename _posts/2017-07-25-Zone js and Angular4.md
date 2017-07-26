@@ -17,6 +17,9 @@ for new entries and places them in the call stack <b>if and only if the call sta
 
 Methods are thrown off the call stack post execution.
 
+In order to understand how the java script event loop works refer to <a href="http://latentflip.com/loupe/">Loupe</a>
+which helps us to visualise the scenario.
+
 Suppose we want to measure the performance of a method
 
 ```javascript
