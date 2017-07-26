@@ -32,7 +32,7 @@ Suppose we want to measure the performance of a method
 
 ```
 
-The `timeToExecute` method will not measure the time taken for the method execution correctly  as the
+The `timeToExecute`  will not measure the time taken for the method execution correctly  as the
 async task in setTimeout is in a different context and will be placed on the call stack only after 
 timeToExecute has been blown off the call stack.
 
