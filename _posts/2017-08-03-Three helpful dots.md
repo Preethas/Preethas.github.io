@@ -12,12 +12,12 @@ date: 2017-08-03
 
 Pre ES6
 
-<code>
+<div class="code">
 
 var arr = [1,2,3];
 var copy  = arr.slice();
 
-</code>
+</div>
 
 
 
