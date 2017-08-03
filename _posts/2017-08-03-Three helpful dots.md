@@ -44,7 +44,7 @@ date: 2017-08-03
 <div class="code">
   var result = [1,2,...arr,3,4];
 </div>
-
+<hr>
 <h5> Concat arrays </h5>
 
 <h6> Pre ES6 </h6>
@@ -59,7 +59,7 @@ date: 2017-08-03
   var arr3 = [...arr1,...arr2];
 </div>
 
-
+<hr>
 <h5> Call methods that have several parameters </h5>
 
 <h6> ES6 </h6>
