@@ -53,3 +53,9 @@ ul.posts li {
     background-color:#DCDCDC;
     color:blue;
 }
+
+.code .p{
+    font-size:14px;
+    font-weight:bold;
+    color:blue;    
+}
