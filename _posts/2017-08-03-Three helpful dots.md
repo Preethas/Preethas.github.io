@@ -42,13 +42,37 @@ date: 2017-08-03
 <h6> ES6 </h6>
 
 <div class="code">
-
+  var result = [1,2,...arr,3,4];
 </div>
 
 <h5> Concat arrays </h5>
 
+<h6> Pre ES6 </h6>
+
+<div class="code">
+  var arr3 = arr1.concat(arr2);
+</div>
+
+<h6> ES6 </h6>
+
+<div class="code">
+  var arr3 = [...arr1,...arr2];
+</div>
+
 
 <h5> Call methods that have several parameters </h5>
+
+<h6> ES6 </h6>
+
+<div class="code">
+<p>function a(param1,param2,param3) {</p>
+  
+<p>}</p>
+<p> var arr = [param1,param2,param3]; </p>
+<p> a(...arr); </p>
+</div>
+
+
 
 
 
