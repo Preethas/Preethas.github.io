@@ -4,6 +4,10 @@ title: "Linked List Using Typescript"
 date: 2017-08-04
 ---
 
+Linked list is a collection of nodes where every node has data and pointer to the next node. It is often compared to an array
+as it can be used to implement other data structures like queue or stack .
+
+<img src="assets/Linkedlist.png"/>
 
 ```Typescript
 class ListNode {
