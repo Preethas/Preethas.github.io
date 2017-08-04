@@ -7,7 +7,7 @@ date: 2017-08-04
 Stack is a last in first out (LIFO)  data structure . The last item to be pushed into the stack will be the first
 item to be retrieved. It resembles a pile of books . Th common operations in a stack are push and pop.
 
-<img src="https://preethas.github.io/assets/Stack.png"/>
+<img src="https://preethas.github.io/assets/Stack-structure.png"/>
 
 ```Typescript
 
