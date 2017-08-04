@@ -4,7 +4,7 @@ title: "Linked List Using Typescript"
 date: 2017-08-04
 ---
 
-<div class="code">
+
 ```Typescript
 class ListNode {
   data:number;
@@ -133,4 +133,4 @@ console.log("The index of 200 is " + list.indexOf(200));
  
 
 ```
-</div>
+
