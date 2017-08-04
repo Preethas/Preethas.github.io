@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Data Structures Using Typescript"
+date: 2017-08-04
+---
 
 ```Typescript
 
