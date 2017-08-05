@@ -18,7 +18,7 @@ class Stack {
   size: number = 10;
 
   constructor(){
-   this.data = new Array(size);
+   this.data = new Array(this.size);
   }
   
   constructor(size: number) {
