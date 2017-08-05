@@ -5,7 +5,7 @@ date: 2017-08-04
 ---
 
 Stack is a last in first out (LIFO)  data structure . The last item to be pushed into the stack will be the first
-item to be retrieved. It resembles a pile of books . Th common operations in a stack are push and pop.
+item to be retrieved. It resembles a pile of books . The common operations in a stack are push and pop.
 
 <img src="https://preethas.github.io/assets/Stack-structure.png"/>
 
@@ -36,10 +36,7 @@ class Stack {
   }
 
   pop() {
-    if (this.count == 0) {
-      return null;
-      console.log("The stack is empty");
-    } else {
+    if (!this.isEmpty()) {
       const index = this.count - 1;
       const value = this.data[index];
       this.count--;
