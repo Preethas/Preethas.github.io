@@ -32,7 +32,7 @@ of the current node , this resolves to 3 ways </li>
 
 <h4> Level order traversal </h4>
 
-
+<script src="https://gist.github.com/Preethas/4a6b3735605ccc3b6030269465a9e144.js"></script>
 
 
 
