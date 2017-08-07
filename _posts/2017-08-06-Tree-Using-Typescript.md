@@ -28,7 +28,7 @@ of the current node , this resolves to 3 ways </li>
 <li> Inorder (LDR) traversal </li>
 <li> Postorder (LRD) traversal </li>
 <li> There is another traversal called Level Order Traversal which drew its inspiration from Breadth First Search </li>
-<ul>
+</ul>
 
 <h4> Level order traversal </h4>
 
