@@ -34,7 +34,4 @@ of the current node , this resolves to 3 ways </li>
 
 <script src="https://gist.github.com/Preethas/4a6b3735605ccc3b6030269465a9e144.js"></script>
 
-
-
-
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/oxt0wd9f/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
