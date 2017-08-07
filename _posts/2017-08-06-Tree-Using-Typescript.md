@@ -10,6 +10,8 @@ date: 2017-08-06
 A tree is a collection of nodes , where every node can have one or more child nodes . Root node
 is present at the top of the tree.
 
+<img src="https://preethas.github.io/assets/tree.png"/>
+
 A binary search tree is a tree where each node can have 0 , 1 or 2 children.
 
 For each node the element on its left will be less than the current node and the element on the
@@ -25,6 +27,7 @@ of the current node , this resolves to 3 ways </li>
 <li> Preorder (DLR) traversal </li>
 <li> Inorder (LDR) traversal </li>
 <li> Postorder (LRD) traversal </li>
+<li> There is another traversal called Level Order Traversal which drew its inspiration from Breadth First Search </li>
 <ul>
 
 
