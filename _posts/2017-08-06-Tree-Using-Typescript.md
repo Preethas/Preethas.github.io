@@ -32,7 +32,7 @@ of the current node , this resolves to 3 ways </li>
 
 <h4> Level order traversal </h4>
 
-<code>
+```Typescript
 
 levelOrderTraversal(root:Node,result:[]) {
      var queue = [];
@@ -44,6 +44,6 @@ levelOrderTraversal(root:Node,result:[]) {
        if (temp.right) queue.push(temp.right);
      }
     }
-</code>
+```
 
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/oxt0wd9f/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
