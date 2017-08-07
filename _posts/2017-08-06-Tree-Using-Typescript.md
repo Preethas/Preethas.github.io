@@ -29,4 +29,21 @@ of the current node , this resolves to 3 ways </li>
 <li> Postorder (LRD) traversal </li>
 <li> There is another traversal called Level Order Traversal which drew its inspiration from Breadth First Search </li>
 <ul>
+
+<h4> Level order traversal </h4>
+
+<code>
+
+levelOrderTraversal(root:Node,result:[]) {
+     var queue = [];
+     queue.push(root);
+     while(queue.length>0){
+       var temp = queue.shift();
+       result.push(temp.data);
+       if (temp.left)  queue.push(temp.left);
+       if (temp.right) queue.push(temp.right);
+     }
+    }
+</code>
+
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/oxt0wd9f/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
