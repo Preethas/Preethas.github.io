@@ -60,16 +60,7 @@ class Stack {
 
 }
 
-var stack = new Stack();
-[1, 2, "test", {
-  x: 1,
-  y: 2
-}, 5].map(item => {
-  stack.push(item);
-})
 
-console.log(stack.pop());
-console.log(stack.sizeOfStack())
 
 
 ```
