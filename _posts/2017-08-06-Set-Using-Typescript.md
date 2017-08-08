@@ -17,7 +17,7 @@ operations that can be applied to a pair of sets.
 <li> Subset — This returns a boolean value that shows if all the elements in one set are included in a different set.</li>
 </ul>
 
-<img src="https://preethas.github.io/assets/Tree.png"/>
+<img src="https://preethas.github.io/assets/Set.png"/>
 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/pree888/ef6028t7/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
