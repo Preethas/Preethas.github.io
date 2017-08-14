@@ -122,17 +122,7 @@ class LinkedList{
     }
 }
 
-var list = new LinkedList();
-var arr = [100,200,300,400,500,600,700,800,900,1000];
-arr.map(data => {
- list.add(data);
-})
 
-list.remove(5080);
-list.print();
-console.log("The size is "  + list.size());
-console.log("The element at 4rth position : " + list.elementAt(4));
-console.log("The index of 200 is " + list.indexOf(200));
 
  
 
