@@ -19,7 +19,7 @@ A common application of a Trie is the autocomplete dictionary as searching in a 
 m is the length of the word.
 
 
-
+<img src="https://preethas.github.io/assets/Trie.png"/>
 
 
 
