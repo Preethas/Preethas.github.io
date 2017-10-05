@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: "Recursive Programming"
+title: "How to think recursively"
 date: 2017-10-05
 ---
 
