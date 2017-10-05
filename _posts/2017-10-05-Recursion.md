@@ -53,7 +53,7 @@ Many functions on collections can be written recursively . Here are a few exampl
 
 <b>Searching for an item in a list</b>
 
-<script src="https://gist.github.com/Preethas/9d1159e5ece79926d94b0b757d4bcc0a.js"></script>
+<script src="https://gist.github.com/Preethas/2c4af6e25dceadb1d77c442f83346782.js"></script>
 
 <b> Finding the last item in a list </b>
 
