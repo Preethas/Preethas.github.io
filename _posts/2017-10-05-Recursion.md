@@ -30,6 +30,9 @@ int sumRecursive(int total,List<Integer> list){
 }
 ```
 
+
+<img src="https://preethas.github.io/assets/Recursion.png"/>
+
 Imagine we passed this function to another developer to call
 The first question would be “What do I pass to total ?” Ideally it should be 0 .
 What happens if I pass some other value ? The function wouldn’t work as expected.
