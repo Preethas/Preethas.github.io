@@ -45,4 +45,12 @@ sum(int[] list){
 
 Many functions on collections can be written recursively . Here are a few examples .
 
+<b>Counting the number of elements in a list</b>
+
+<script src="https://gist.github.com/Preethas/883b79625eebf43e288fd78985c8329b.js"></script>
+
+
+
+
+
 
